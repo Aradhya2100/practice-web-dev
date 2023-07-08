@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is description">
+    <meta name="keywords" content="html, html tutorials, web development">
+    <meta name="robotos" content="INDEX, FOLLOW">
+    <title>Forms</title>
+
+    <!-- This is how you include external css -->
+    <link rel="stylesheet" href="aradhya.css">
+
+    <!-- This is how you include external JavaScript -->
+    <script src="aradhya.js"></script>
+</head>
+<body>
+
+    <h2> This is HTML forms tutorial </h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Contact No.: <input type="text" name="myContact No." >
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            You are eligible. <input type="checkbox" name="myEligiblty">
+        </div>
+        <br>
+        <div>
+            <label name="car" >car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="sew">Sweft</option>
+                <option value="wag">Wegor</option>
+                <option value="mar">Maruti</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write your massage: <br> <textarea name="myText" cols="100" rows="100"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="Submit" value="Submit Now">
+            <input type="Reset" value="Reset Now">
+        </div>
+    </form>
+</body>
